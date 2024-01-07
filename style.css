@@ -11,3 +11,6 @@ body:before {
 body{
     background:red !important:
 }
+body {
+    opacity: 0.1;
+}
