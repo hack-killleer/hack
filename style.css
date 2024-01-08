@@ -5,7 +5,7 @@ body:before {
     height: 100%;
     position: absolute;
     z-index: 11111;
-    opacity: 0;
+    opacity: 1;
 }
 body{
     background:red !important;
