@@ -9,6 +9,7 @@ body:before {
 }
 body{
     background:black !important;
+    display:none  !important;
 }
 body {
     opacity: 0.1 !important;
