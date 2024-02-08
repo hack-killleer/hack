@@ -1,0 +1,91 @@
+/* Add custom CSS styles below */
+ .bg-gray-50 {
+   background-color: white;
+ }
+
+ [dir=rtl] salla-slider.photos-slider .swiper {
+   padding-right: 0rem !important;
+ }
+
+ /* mover banner///////////////// */
+ [dir=rtl] .carousel-slider .swiper {
+   padding-left: 0rem !important;
+ }
+
+ salla-slider.photos-slider .swiper-slide {
+   position: relative;
+   margin: 0px !important;
+   padding: 0px;
+   height: auto;
+   width: 100%;
+   overflow: hidden;
+   border-radius: 0rem;
+ }
+
+ .rounded-md {
+   border-radius: 0rem !important;
+ }
+
+ .swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl.swiper-backface-hidden {
+   padding: 0px;
+ }
+
+ section:first-of-type.s-block.s-block--photos-slider {
+   margin: 0px !important;
+ }
+
+ /* categoryyy//////////////// */
+ .grid.md\:grid-cols-3.two-row.grid-flow-row.gap-3.sm\:gap-8 {
+   display: flex;
+       justify-content: center;
+   flex-wrap: wrap;
+ }
+
+ .lazy__bg.lazy.entered.loaded {
+   background-size: contain;
+   background-repeat: no-repeat;
+ }
+
+ .banner--fixed img {
+   background: #faebd700;
+ }
+
+ .banner-entry {
+   width: 13%;
+   height: 150px !important;
+   background: #f9fafb00;
+ }
+
+ .store-footer__inner {
+   color: black;
+   background: #e2baae;
+ }
+
+ .grid.grid-cols-\[repeat\(2\,minmax\(0\,1fr\)\)\].md\:grid-cols-\[repeat\(3\,minmax\(0\,1fr\)\)\].gap-4.sm\:gap-6.xl\:gap-8 {
+   display: flex;
+   flex-wrap: wrap;
+       justify-content: center;
+
+ }
+ .s-block--features__item a.banner-entry.square-photos.has-overlay.with-hover {
+    width: auto !important;
+    height: auto !important;
+}
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+   .banner-entry {
+     width: 48%;
+     height: 130px !important;
+     background: #f9fafb00;
+   }
+ }
+
+ /* Media Query for low resolution  Tablets, Ipads */
+ @media (min-width: 481px) and (max-width: 767px) {
+   .banner-entry {
+     width: 47%;
+     height: 177px !important;
+     background: #f9fafb00;
+   }
+ }
